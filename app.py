@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 import os
 from datetime import datetime
-from nez_scraper import ExtractorNezBistro, GeradorMarkdown
+from nez_md_scraper import ExtractorNezBistro, GeradorMarkdown
 
 app = Flask(__name__)
 
